@@ -1,0 +1,19 @@
+{
+  "name": "favathletes",
+  "version": "1.0.0",
+  "description": "A simple web app to view your favorite athletes social media presence  ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dagyei2/FavAthletes.git"
+  },
+  "author": "Darwin Agyei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dagyei2/FavAthletes/issues"
+  },
+  "homepage": "https://github.com/Dagyei2/FavAthletes#readme"
+}
