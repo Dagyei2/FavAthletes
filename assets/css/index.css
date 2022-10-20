@@ -1,0 +1,173 @@
+/*Universal Styles*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+
+
+}
+
+
+body {
+    min-height: 100vh;
+
+}
+
+
+/*Shared class styles*/
+
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.font-size-18 {
+    font-size: 18px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.font-size-24{
+    font-size:24px;
+}
+.font-size-36{
+    font-size:36px;
+}
+.font-weight-400 {
+    font-weight: 400;
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+
+.font-weight-600 {
+    font-weight: 600;
+}
+
+.font-weight-700 {
+    font-weight: 700;
+}
+
+.color-262626 {
+color: #262626;
+}
+
+.color-404040{
+    color: #404040;
+}
+
+.color-595959{
+    color: #595959;
+}
+
+.spacing-68px {
+    height: 68px;
+}
+
+.spacing-50px {
+    height: 50px;
+}
+.spacing-70px{
+    width:70px;
+}
+
+.border-radius-10px{
+    border-radius: 10px;
+}
+
+
+.margin-bottom-4px{
+    margin-bottom: 4px;
+}
+
+.padding-top-26px{
+    padding-top: 26px;
+
+}
+
+.text-decoration{
+    text-decoration: none;
+    
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+
+.box-shadow{
+    box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+    padding: 30px;
+    border-radius: 23px;
+    border:0;
+    max-width: 100%;
+}
+
+/*Nav Section */
+#navbar-logo{
+    font-size:28px;
+}
+
+
+/*Index HTML Styles */
+/*Main Section*/
+
+#main-h1-styles{
+    font-size:46px;
+    max-width:746px; 
+    min-width:230px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+
+/*Footer Section */
+#footer-style{
+    text-align: center;
+}
+
+
+
+/*Index HTML Media Breakpoints */
+
+@media (max-width:425px){
+
+    .ath-heading-mb{
+        text-align: center;
+    }
+    .aths-mb{
+        margin:  10px auto;
+    }
+
+
+}
+
+/* FavAthletes Profiles* Media Breakpoints */ 
+
+@media (min-width:992px) and (max-width: 1399px){
+    .bio-box-shadow{
+        margin-right: 36px;
+    }
+}
+
+
+@media(max-width: 991px) {
+    .flex-direction-mb {
+        flex-direction: column;
+        margin: 12px auto;
+    }
+
+    .bio-box-shadow{
+        margin-bottom: 30px;     
+    }
+
+    #youtube-bp{
+        padding-top:30px
+    }
+}
